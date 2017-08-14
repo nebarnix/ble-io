@@ -1,3 +1,7 @@
+# Quick Summary of Fork
+
+Fork was created to add serial1 commands to an attached EMIC2. This lets us send text that will be spoken aloud to by our nodebot. Canned phrases are spoken by sending pin states of 0-3 to pin 120, which is not a real pin. Realtime text will be done (NOT IMPLEMENTED) by adding a new BLE characteristic. 
+
 # ble-io
 
 Ble-io is a library for writing javascript programs that interact with Bluetooth Low-Energy (BLE) devices. It can also be used an [IO plugin](https://github.com/rwaldron/io-plugins) for use with the [johnny-five](https://github.com/rwaldron/johnny-five) robotics framework.
