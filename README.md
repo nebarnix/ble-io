@@ -1,6 +1,6 @@
 # Quick Summary of Fork
 
-Fork was created to add serial1 commands to an attached EMIC2. This lets us send text that will be spoken aloud by our nodebot. Canned phrases are spoken by sending pin states of 0-3 to pin 120, which is not a real pin. Realtime text will be done (NOT IMPLEMENTED) by adding a new BLE characteristic. 
+Fork was created to add serial1 commands to an attached EMIC2. This lets us send text that will be spoken aloud by our nodebot. Canned phrases are spoken by setting digitalCharacteristic pin states of 0-3 to pin 120, which is not a real pin. Realtime text will be done (NOT IMPLEMENTED) by adding a new BLE characteristic. 
 
 # ble-io
 
